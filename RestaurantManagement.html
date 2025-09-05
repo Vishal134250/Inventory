@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Restro Food</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif; 
+      color: #ffffff; 
+      background-color: #000000; 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: inherit;
+      letter-spacing: 5px;
+    }
+
+    .w3-text-grey {
+      color: #ffffff; 
+    }
+
+    .w3-text-blue-grey {
+      color: #ffffff; 
+    }
+
+    .order-history {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+      overflow: auto;
+      max-height: 300px;
+      color: #ffffff; 
+    }
+
+    .order-processing {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+      color: #ffffff; 
+    }
+  </style>
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 7px;">
+    <a href="#home" class="w3-bar-item w3-button">THE DISFRUTAR BARCELONA</a>
+    <div class="w3-right w3-hide-medium">
+      <a href="#home" class="w3-bar-item w3-button">Home</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      
+    </div>
+  </div>
+</div>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width: 1000px; min-width: 400px;" id="home">
+  <div class="w3-display-bottom w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge"><img src=""></h1>
+  </div>
+</header>
+
+<div class="w3-content" style="max-width: 1100px;">
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+    </div>
+    <div class="w3-col w3-padding-large">
+      <h3 class="w3-center"></h3><br>
+      <h3 class="w3-center">TRADITIONAL SINCE 2005</h3>
+      <p class="w3-xlarge"><span class="w3-text-grey">Welcome to our restaurant, where we serve delicious, authentic cuisine made with 
+        fresh, locally-sourced ingredients. Our team is passionate about creating a warm and inviting 
+        atmosphere for our guests, and we strive to provide excellent service and a memorable 
+        dining experience.</span></p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h3 class="w3-center">Our Menu</h3><br>
+      <h4>PUNJABI FOOD</h4>
+      <p class="w3-text-blue-grey">
+        <ul>
+          <li><strong>Paneer Tikka</strong> - Grilled cottage cheese marinated in yogurt and spices. ₹250</li>
+          <li><strong>Aloo Gobi</strong> - Cauliflower and potato cooked with onions, tomatoes, and spices. ₹180</li>
+          <li><strong>Dal Makhani</strong> - Creamy lentils cooked with butter and cream. ₹200</li>
+          <li><strong>Sarson Da Saag</strong> - Mustard greens cooked with spices. ₹220</li>
+          <li><strong>Chole Bhature</strong> - Chickpea curry with fried bread. ₹210</li>
+          <li><strong>Palak Paneer</strong> - Cottage cheese in spinach gravy. ₹240</li>
+        </ul>
+      </p><br>
+  
+      <h4>MEXICAN</h4>
+      <p class="w3-text-blue-grey">
+        <ul>
+          <li><strong>Nachos</strong> - Crispy tortilla chips topped with cheese, salsa, and jalapenos. ₹180</li>
+          <li><strong>Guacamole</strong> - Fresh avocado dip with tomatoes, onions, and lime juice, served with tortilla chips. ₹200</li>
+          <li><strong>Quesadilla</strong> - Cheese-filled tortilla grilled to perfection. ₹220</li>
+          <li><strong>Enchiladas</strong> - Corn tortillas rolled around a filling and covered with a chili pepper sauce. ₹250</li>
+          <li><strong>Burrito</strong> - Large wheat flour tortilla with various fillings. ₹230</li>
+          <li><strong>Mexican Rice</strong> - Spicy tomato rice. ₹160</li>
+        </ul>
+      </p><br>
+  
+      <h4>GUJRATI</h4>
+      <p class="w3-text-blue-grey">
+        <ul>
+          <li><strong>Khandvi</strong> - Rolled gram flour sheets, tempered with mustard seeds and coconut. ₹150</li>
+          <li><strong>Dhokla</strong> - Steamed fermented rice and chickpea flour cakes. ₹120</li>
+          <li><strong>Undhiyu</strong> - Mixed vegetable casserole. ₹200</li>
+          <li><strong>Thepla</strong> - Gujarati flatbread made from wheat flour and fenugreek leaves. ₹100</li>
+          <li><strong>Fafda</strong> - Crispy fried snack made from chickpea flour. ₹130</li>
+          <li><strong>Patra</strong> - Taro leaves stuffed with spicy paste, rolled, and steamed. ₹140</li>
+        </ul>
+      </p><br>
+  
+      <h4>CAFE SPECIAL</h4>
+      <p class="w3-text-blue-grey">
+        <ul>
+          <li><strong>Coffee</strong> - ₹100</li>
+          <li><strong>Sandwich</strong> - ₹120</li>
+          <li><strong>Pasta</strong> - Italian pasta dish. ₹180</li>
+          <li><strong>Salad</strong> - Fresh vegetable salad. ₹150</li>
+          <li><strong>Pizza</strong> - Italian pizza. ₹250</li>
+          <li><strong>Burger</strong> - ₹200</li>
+        </ul>
+      </p><br>
+    </div>
+  
+   
+    <div class="w3-col l6 w3-padding-large">
+      <h3 class="w3-center">Place Your Order</h3><br>
+      <form id="orderForm" class="w3-container w3-card-4">
+        <label for="menuItem">Select Menu Item:</label>
+        <select id="menuItem" name="menuItem" class="w3-select w3-border">
+       
+        </select><br><br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" class="w3-input w3-border" min="1" required><br><br>
+        <button type="submit" class="w3-button w3-blue-grey" id="orderButton">Place Order</button>
+      </form>
+      <div id="orderProcessingMessage" class="w3-container w3-card-4 w3-hide">
+        <p class="order-processing">Your order is being processed...</p>
+      </div>
+    </div>
+  
+    
+    <div class="w3-col l6 w3-padding-large order-history">
+      <h3 class="w3-center">Order History</h3>
+    
+    </div>
+  </div>
+  
+    
+  
+  
+  <hr>
+  
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Table Booking</h1><br>
+    <p class="w3-large">Reserve a table at our restaurant with our user-friendly online booking system. Simply select your preferred date, time, and number of guests, and we'll confirm your reservation promptly.</p>
+    <p class="w3-text-white"><b>OUR CATERING SERVICE:- Restro Cafe, Near Avenue Park,Ravapar Road,MORVI.</b></p>
+    <p>CONTACT NO: 9327200211</p>
+    <p>EMAIL: parekhvishal050@gmail.com</p>
+    <form target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-blue-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-center"></i>To the top</a><br><br>
+    <div class="w3-xlarge w3-section">
+      
+      
+      <a href="https://www.instagram.com/vishal_parekh_3356?igsh=MWFoOTh6Mm5yNWMwcA=="><i class="bx bxl-instagram"></i></a>
+
+    </div>
+    <p>Powered by Restro Food</p>
+  </footer>
+  
+  <script>
+    
+    const menuItems = {
+      "PUNJABI FOOD": [
+        { name: "Paneer Tikka", price: 250 },
+        { name: "Aloo Gobi", price: 180 },
+        { name: "Dal Makhani", price: 200 },
+        { name: "Sarson Da Saag", price: 220 },
+        { name: "Chole Bhature", price: 210 },
+        { name: "Palak Paneer", price: 240 }
+      ],
+      "MEXICAN": [
+        { name: "Nachos", price: 180 },
+        { name: "Guacamole", price: 200 },
+        { name: "Quesadilla", price: 220 },
+        { name: "Enchiladas", price: 250 },
+        { name: "Burrito", price: 230 },
+        { name: "Mexican Rice", price: 160 }
+      ],
+      "GUJRATI": [
+        { name: "Khandvi", price: 150 },
+        { name: "Dhokla", price: 120 },
+        { name: "Undhiyu", price: 200 },
+        { name: "Thepla", price: 100 },
+        { name: "Fafda", price: 130 },
+        { name: "Patra", price: 140 }
+      ],
+      "CAFE SPECIAL": [
+        { name: "Coffee", price: 100 },
+        { name: "Sandwich", price: 120 },
+        { name: "Pasta", price: 180 },
+        { name: "Salad", price: 150 },
+        { name: "Pizza", price: 250 },
+        { name: "Burger", price: 200 }
+      ]
+    };
+  
+   
+    function populateMenuItems() {
+      const menuItemSelect = document.getElementById("menuItem");
+      Object.keys(menuItems).forEach(category => {
+        const optGroup = document.createElement("optgroup");
+        optGroup.label = category;
+        menuItems[category].forEach(item => {
+          const option = document.createElement("option");
+          option.textContent = `${item.name} - ₹${item.price}`;
+          option.value = JSON.stringify(item); 
+          optGroup.appendChild(option);
+        });
+        menuItemSelect.appendChild(optGroup);
+      });
+    }
+  
+    function handleFormSubmission(event) {
+      event.preventDefault();
+      const form = event.target;
+      const menuItem = JSON.parse(form.menuItem.value); 
+      const quantity = form.quantity.value;
+      const totalCost = menuItem.price * quantity;
+  
+      const orderProcessingMessage = document.getElementById("orderProcessingMessage");
+      orderProcessingMessage.classList.remove("w3-hide");
+  
+      setTimeout(() => {
+        
+        const orderSummary = `${quantity} ${menuItem.name}(s) - Total: ₹${totalCost}`;
+  
+        const orderHistory = document.querySelector(".order-history");
+        const p = document.createElement("p");
+        p.textContent = orderSummary;
+        orderHistory.appendChild(p);
+  
+       
+        form.reset();
+        orderProcessingMessage.classList.add("w3-hide");
+      }, 2000); 
+    }
+  
+    document.addEventListener("DOMContentLoaded", () => {
+      populateMenuItems();
+      const orderForm = document.getElementById("orderForm");
+      orderForm.addEventListener("submit", handleFormSubmission);
+    });
+  </script>
+  
+
+    
+
+</body>
+</html>
