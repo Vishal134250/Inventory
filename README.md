@@ -1,32 +1,31 @@
 🌐 My Projects Collection
-
 Welcome to my project hub!
 This repository showcases a collection of projects I’ve built in Python and C#, ranging from full-stack web applications to classic games.
 
 🛠 Learning by building — one project at a time.
 
 📦 Projects
-1. 📤 Online Sharing Portal
+ 1. 📤 Online Sharing Portal
 
-A platform for uploading and sharing files securely.
+ A platform for uploading and sharing files securely.
 
-Tech Stack: Python, Flask/Django, SQLite/MySQL
+ Tech Stack: Python, Flask/Django, SQLite/MySQL
 
 Features:
 
-🔐 User authentication & profiles
+ 🔐 User authentication & profiles
 
-📁 File uploads/downloads
+ 📁 File uploads/downloads
 
-⚙️ Access management
+ ⚙️ Access management
 
-Use Case: A simple Google Drive alternative built from scratch.
+ Use Case: A simple Google Drive alternative built from scratch.
 
-2. 🛒 Flipkart Clone
+ 2. 🛒 Flipkart Clone
 
-A shopping platform inspired by Flipkart.
+A  shopping platform inspired by Flipkart.
 
-Tech Stack: Python, Django/Flask, SQLite/MySQL
+Tech Stack: PHP, HTML, CSS, JS SQLite/MySQL
 
 Features:
 
@@ -42,7 +41,7 @@ Use Case: A hands-on e-commerce application that simulates real-world shopping.
 
 A streamlined system to book flights.
 
-Tech Stack: Python, MySQL/SQLite
+Tech Stack: Python, PyQT5 MySQL/SQLite
 
 Features:
 
